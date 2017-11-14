@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>“旋转木马”幻灯片效果</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+	
+	<!-- 第一个区域 -->
+   <div class="J_Poster posterMain" data-setting='{
+   "width":1000,
+   "height":270,
+   "posterWidth":640,
+   "posterHeight":270,
+   "scale":0.9,
+   "speed":500,
+   "autoPlay":true,
+   "delay":2000,
+   "verticalAlign":"middle"
+}'>
+   	  
+   	  <div class="posterBtn posterPrevBtn"></div>
+
+      <ul class="posterList">
+      	<li class="posterItem"><a href="##"><img src="img/1.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/2.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/3.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/4.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/5.jpg" alt="" /></a></li>
+      </ul>
+
+   	  <div class="posterBtn posterNextBtn"></div>
+   </div><!-- posterMain结束  -->
+
+
+
+   <!-- 第二个区域 -->
+   <div class="J_Poster posterMain" data-setting='{
+   "width":1000,
+   "height":270,
+   "posterWidth":640,
+   "posterHeight":270,
+   "scale":0.9,
+   "speed":500,
+   "autoPlay":true,
+   "delay":3000,
+   "verticalAlign":"top"
+}'>
+   	  
+   	  <div class="posterBtn posterPrevBtn"></div>
+
+      <ul class="posterList">
+      	<li class="posterItem"><a href="##"><img src="img/1.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/2.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/3.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/4.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/5.jpg" alt="" /></a></li>
+      </ul>
+
+   	  <div class="posterBtn posterNextBtn"></div>
+   </div><!-- posterMain结束  -->
+
+
+   <!-- 第三个区域 -->
+   <div class="J_Poster posterMain" data-setting='{
+   "width":1000,
+   "height":270,
+   "posterWidth":640,
+   "posterHeight":270,
+   "scale":0.9,
+   "speed":500,
+   "autoPlay":true,
+   "delay":4000,
+   "verticalAlign":"buttom"
+}'>
+   	  
+   	  <div class="posterBtn posterPrevBtn"></div>
+
+      <ul class="posterList">
+      	<li class="posterItem"><a href="##"><img src="img/1.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/2.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/3.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/4.jpg" alt="" /></a></li>
+      	<li class="posterItem"><a href="##"><img src="img/5.jpg" alt="" /></a></li>
+      </ul>
+
+   	  <div class="posterBtn posterNextBtn"></div>
+   </div><!-- posterMain结束  -->
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	$(function(){
+		Carousel.init($(".J_Poster"));
+	});
+</script>
+</html>
